@@ -1,0 +1,19 @@
+{
+ "gmail_imap" : "imap.gmail.com"
+ "gmail_user" : "thex0d@gmail.com",
+ "gmail_client_id" : "sample2d855i76r6v5qgt24jlehpbc0s97b55.apps.googleusercontent.com",
+ "gmail_client_secret" : "sample1smXV1fFf-RlpywH",
+ "gmail_token_file" : "gmail_tokens.json",
+ 
+ "pushover_api_key" : "sample_api_key____5RLS4voeeVnvFiJyCcP",
+ "alerts_pushover" : [
+  "sample_user_id_____KTNaa4R388Axr5Xy1g"
+ ],
+ 
+ "twilio_account_sid" : "sample_account_sid___d47549e4760d77c63",
+ "twilio_account_token" : "sample_account_token_________c012574903fdc3731600aa",
+ "twilio_phone_no" : "+447481341616",
+ "alerts_sms" : [
+  "+40751163463"
+ ]
+}

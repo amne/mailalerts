@@ -1,0 +1,9 @@
+- change gmail_imap key to your domain imap if that's the case
+- in config.json put "gmail_client_id" and "gmail_client_secret" provided by the Google API.
+- run oauth2.py to get a refresh token (run `oauth2 --generate_oauth2_token --client_id=... --client_secret=... --user=mail@gmail.com`  and follow onscreen instructions)
+- put the refresh token in gmail_token_file (gmail_tokens.json by default) {"refresh" : "refresh_token_here"}
+- run mailalerts.py. a gmail access token valid for 1 hour will be fetched and written to "gmail_tokens.json" file. it is refreshed automatically when it expires using the refresh token
+
+
+if the pushover_api_key is valid then pushover is used to deliver a push notification to the user ids in the "alerts_pushover" arrays
+if the twilio_account_sid is valid then twilio api is used to send a text message to the numbers in the "alerts_sms" array
